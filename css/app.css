@@ -24,6 +24,8 @@
 
 
 	--box-shadow: 0 2rem 3rem var(--color-light);
+
+
 }
 
 /*------------------------DARK THEME VARAIBLES---------------*/
@@ -147,8 +149,8 @@ aside .logo{
 }
 
 aside .logo img{
-	width: 2rem;
-	height: 2rem;
+	width: 4rem;
+	height: 3rem;
 }
 
 aside .close{
@@ -342,6 +344,17 @@ main .recent-orders h2 {
 	margin-bottom: 0.8rem;
 }
 
+main.recent-orders .Search1 {
+	justify-content: center;
+}
+
+main .recent-orders .Search1-input {	
+	border: 2px solid var(--color-primary);
+	text-align: center;
+	border-radius: var(--card-border-radius);
+	
+}
+
 
 main .recent-orders table {
 	background: var(--color-white);
@@ -375,6 +388,42 @@ main a{
 	margin: 1rem auto;
 	color: var(--color-primary);
 }
+
+main .recent-orders .pages ul{
+	margin: 0.rem;
+	padding: 0.5rem;
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-end;
+}
+
+main .recent-orders .pages ul li{
+	display: inline-block;
+	margin: 0.4rem;
+
+}
+.recent-orders .pages ul li button{
+	border-radius: 0.5rem;
+}
+
+.recent-orders .pages ul li button:hover {
+	background: var(--color-primary);
+	color: var(--color-white);
+	border-radius: 0.5rem;
+
+}
+
+.recent-orders .pages ul li span.active{
+	background-color: var(--color-primary);
+	border-radius: 0.5rem;
+}
+.recent-orders .pages ul li button,
+.recent-orders .pages ul li span{
+	padding: 6px 12px;
+}
+
+
+
 /*==================RIGHT=========================*/
 
 .right {
@@ -550,7 +599,7 @@ background: var(--color-danger);
 	}
 	aside .sidebar a:last-child {
 		position: relative;
-		margin-top: 1.8rem
+		margin-top: 1.8rem;
 	}
 
 	main .insights {
@@ -569,14 +618,16 @@ background: var(--color-danger);
 	main .recent-orders table{
 		width: 83vw;
 	}
+	
+	
 
 	main table thead tr th:last-child,
 	main table thead tr th:first-child {
 		display: none;
 	}
 
-	main table body tr td:last-child,
-	main table body tr td:first-child {
+	main table tbody tr td:last-child,
+	main table tbody tr td:first-child {
 		display: none;
 	}
 }
@@ -607,7 +658,7 @@ background: var(--color-danger);
 	}
 
 	aside .logo{
-		marginlef 1rem;
+		margin-left: 1rem;
 	}
 	aside .logo h2{
 		display: inline;
@@ -633,7 +684,7 @@ background: var(--color-danger);
 
 	main {
 		margin-top: 8rem;
-		padding: 0 1rem;
+		padding: 0 2rem;
 	}
 
 	main .recent-orders{
@@ -643,12 +694,12 @@ background: var(--color-danger);
 	}
 
 	main .recent-orders table {
-		width: 100%
+		width: 100%;
 		margin: 0;
 	}
 
 	.right {
-		width: 94%;
+		width: 92%;
 		margin: 0 auto 4rem;
 	}
 
@@ -664,12 +715,6 @@ background: var(--color-danger);
 		margin: 0;
 		z-index: 2;
 		box-shadow: 0 1rem 1rem var(--color-light);
-	}
-
-	.right .top .theme.toggler {
-		width: 4.4rem;
-		position: absolute;
-		left: 66%;
 	}
 
 	.right .profile .info {

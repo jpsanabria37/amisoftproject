@@ -1,44 +1,44 @@
 const Orders = [
 	{
-		productName: 'Foldable Mini Drone',
-		productNumber: '85631',
-		paymentStatus: 'Due',
-		shipping: 'Pending'
+		name: 'Foldable Mini Drone',
+		id: '85631',
+		date: '00/00/00',
+		status: 'Pending'
 	},
 	{
-		productName: 'LARVENDER KF102 Drone Mini',
-		productNumber: '36378',
-		paymentStatus: 'Refunded',
-		shipping: 'Declined'
+		name: 'LARVENDER KF102 Drone Mini',
+		id: '36378',
+		date: '00/00/00',
+		status: 'Pending'
 	},
 	{
-		productName: 'Ruko F11 Pro Drone',
-		productNumber: '49347',
-		paymentStatus: 'Due',
-		shipping: 'Pending'
+		name: 'Ruko F11 Pro Drone',
+		id: '49347',
+		date: '00/00/00',
+		status: 'Pending'
 	},
 	{
-		productName: 'Drone whit Camera Drone',
-		productNumber: '96996',
-		paymentStatus: 'Paid',
-		shipping: 'Delivered'
+		name: 'Drone whit Camera Drone',
+		id: '96996',
+		date: '00/00/00',
+		status: 'Delivered'
 	},
 	{
-		productName: 'GPS 4k Drone',
-		productNumber: '22821',
-		paymentStatus: 'Paid',
-		shipping: 'Delivered'
+		name: 'GPS 4k Drone',
+		id: '22821',
+		date: '00/00/00',
+		status: 'Delivered'
 	},
 	{
-		productName: 'DJI Air 25',
-		productNumber: '81475',
-		paymentStatus: 'Due',
-		shipping: 'Pending'
+		name: 'DJI Air 25',
+		id: '81475',
+		date: '00/00/00',
+		status: 'Pending' 
 	},
 	{
-		productName: 'Lozenge Drone',
-		productNumber: '00482',
-		paymentStatus: 'Paid',
-		shipping: 'Delivered'
+		name: 'Lozenge Drone',
+		id: '00482',
+		date: '00/00/00',
+		status: 'Delivered'
 	}
 ]
